@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chien Chi's UX Design Portfolio</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+    </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container" style="padding: 0px">
+        <a class="navbar-brand" href="index.html"><h4>Chien Chi Hsu</h4></a>
+        <button id="navbar-toggler"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects"><h6>Projects</h6></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropbtn"><h6>Projects</h6></button>
+                    <div class="dropdown-content">
+                        <a href="#project1">Camera Management Tool</a>
+                        <a href="#project2">Project 2</a>
+                        <a href="#project3">Project 3</a>
+                    </div>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><h6>About</h6></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1wClaGaz3tmciLigZgBYV_RRFtNe40Ry-/view?usp=sharing" target="_blank"><h6>Resume</h6></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Page -->
+<section id="home" class="text-center py-5">
+    <div class="cover container">
+        <div class="d-flex align-items-center justify-content-between flex-row p-0 hero" style="margin: 0px 0px">
+            <div class="d-flex align-items-start  justify-content-center flex-column p-0 col-7">
+                <h1 class="big-title mb-3">Hello! I am Chien-Chi Hsu</h1>
+                <p style="text-align: start; color: #818181; font-weight: 400;" class="hero-text">I am a passionate UX designer with a solid background in web development.<br> I integrate creativity and technical expertise to create design that positively changes people's lives.</p>
+            </div>
+            <img class="p-0 mr-4 hero-image" style="width: 20%"src="image/home/Frame 3.png" alt="personal">
+        </div>
+        <div class="d-flex flex-column" style="padding-top: 160px">
+            <a href="javascript:void(0);" id="seeMoreBtn" onclick="scrollToContent()" style="outline: none"><h6 style="outline: none">Selected Projects</h6></a>
+            <h1>&#x1F817;</h1>
+        </div>
+        <!-- <div class="d-flex align-items-center jutify-content-center flex-column p-0" style="margin: 0px 0px">
+            <img class="p-0 mr-4" style="width: 10%; margin-bottom: 40px"src="image/home/Frame 2.png" alt="personal">
+        </div> -->
+        <!-- <img src="image/home/cover.png" alt="personal"> -->
+    </div>
+</section>
+
+<!-- Projects Page -->
+<section id="projects" class="py-5 mr-sm-4 ml-sm-4">
+    <div class="container p-0">
+        <!-- <h4>Projects</h4> -->
+        <div class="row m-0">
+            <!-- Project 1 -->
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">NTU & Brinno Cooperation Project</h4>
+                                <h3 class="card-title">Camera Management Tool</h3>
+                                <p class="card-text">Enable constructors to monitor time-lapse camera screen and status in real-time</p>
+                            </div>
+                            <a href="./CameraManagementTool.html" class="card-button mb-4">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/birnno cover (1).png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">NTU IM Volunteer Project</h4>
+                                <h3 class="card-title">PDOGs Redesign</h3>
+                                <p class="card-text">Improve the code submission experience for students and teaching assitants</p>
+                            </div>
+                            <a href="./PDOGs.html" class="card-button mb-4">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/PDOG (5).png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">Xchange Program</h4>
+                                <h3 class="card-title">Learnly</h3>
+                                <p class="card-text">Encourage univervisity students to solve academic problems through learning communities</p>
+                            </div>
+                            <a href="https://docs.google.com/presentation/d/1ZSaSGgmG20aOl1NzS2ZGa3Go5HR76JMNST8w-Pkd8os/edit?usp=sharing" class="card-button  mb-4" target="_blank">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/learnly cover.png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">Huma-computer Interaction and User Studies Course Work</h4>
+                                <h3 class="card-title">The Impact of In-car Navigation Systems on Drivers' Moods</h3>
+                                <p class="card-text">Investigate potential negative effects of in-car navigation systems on drivers' moods.</p>
+                            </div>
+                            <a href="https://www.canva.com/design/DAFj_DBpa8Q/Q5EY74ruyE4SNxQU8kCwKg/edit?utm_content=DAFj_DBpa8Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="card-button  mb-4" target="_blank">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/in-car.png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">OpenHCI Workshop</h4>
+                                <h3 class="card-title">Eggy</h3>
+                                <p class="card-text"> Remind individuals with hoarding issues to part away unneccesary items</p>
+                            </div>
+                            <a href="./Eggy.html" class="card-button mb-4">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/eggy.png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+            <div class="card project d-flex col-md-12 border-0">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card-body"  style="padding: 0px">
+                            <div class="card-info">
+                                <h6 class="card-tag">Web Programming Course Work</h4>
+                                <h3 class="card-title">Swing NTU</h3>
+                                <p class="card-text">Redisign information sharing experience among exchange students at NTU</p>
+                            </div>
+                            <a href="./Swing NTU.html" class="card-button mb-4">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid card-img" src="image/home/swing cover.png" alt="upload file v2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Simple Left-Aligned Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="small-text">Designed and coded by Chien Chi Hsu &copy;2023</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Include Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var cards = document.querySelectorAll('.card');
+
+        function isInViewport(element) {
+            var rect = element.getBoundingClientRect();
+            var cardMidpoint = rect.top + rect.height / 5;
+            return (
+                cardMidpoint >= 0 &&
+                cardMidpoint <= (window.innerHeight || document.documentElement.clientHeight)
+            );
+        }
+
+        window.addEventListener('scroll', function () {
+            cards.forEach(function (card, index) {
+                if (isInViewport(card)) {
+                    card.style.animation = `fadeIn 1s forwards ${index * 0.03}s, slideIn 1s forwards ${index * 0.03}s`;
+                }
+            });
+        });
+
+        var navbarToggler = document.getElementById('navbar-toggler');
+
+        // navbarToggler.addEventListener('click', function () {
+        //     var isCollapsed = navbarToggler.getAttribute('aria-expanded');
+        //     console.log(isCollapsed);
+
+        //     if (isCollapsed) {
+        //         navbarToggler.focus();
+        //     } else {
+        //         navbarToggler.blur();
+        //     }
+        // });
+
+    });
+
+
+    function scrollToContent() {
+        var contentElement = document.getElementById("projects");
+
+        // Scroll to the content section with smooth behavior
+        contentElement.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>

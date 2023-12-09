@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title - UX Design</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include your custom CSS if needed -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container" style="padding: 0px">
+            <a class="navbar-brand" href="#"><h4>Chien Chi Hsu</h4></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><h6>Home</h6></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"><h6>Projects</h6></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><h6>About</h6></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover Section -->
+    <section class="bg-light text-center">
+        <img src="image/pdog/cover (1).png" alt="PDOGs Redesign">
+    </section>
+
+    <!-- Sections for Different Topics/Steps -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Overview</h5>
+            <h4>An APP for university students to solve academic problems through online community</h4>
+            <p>A learning community is a space where university students come together to discuss class assignments and share information. Research has shown that engaging in a learning community can enhance people's motivation to learn. However, we noticed that in Taiwan, many university students are not willing to create or engage in such communities, even when their classes provide their own discussion forums or other social groups. Therefore, we aimed to enhance the engagement of the learning community, hoping to facilitate students' comprehension of the course content. 
+            </p>
+            <div class="project-info d-flex flex-row justify-content-between">
+                <div>
+                    <h4>Role</h4>
+                    <p>UX research and design</p>
+                </div>
+                <div>
+                    <h4>Team</h4>
+                    <p>Designer * 3</p>
+                </div>
+                <div>
+                    <h4>Tools</h4>
+                    <p>Figma</p>
+                </div>
+                <div>
+                    <h4>Timeline</h4>
+                    <p>July 2023 - Sep. 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Timeline</h5>
+            <div class="d-flex justify-content-center">
+                <img src="image/pdog/Ghant chart.png" alt="design process" class="mt-4" style="width: 60%">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Problem</h5>
+            <h4>Lack of information on each page and unclear system prompts cause confusion for students and teaching assistants</h4>
+            <p>While using PDOGs, students often face difficulties due to the lack of sufficient information on each page. This leads to lengthy processes when checking information or submitting assignments. Similarly, teaching assistants find the operations somewhat complex, and the system prompts are not clear enough. In the past, they had to rely on oral communication to instruct the next semester's teaching assistants on how to operate the system. As a result, we have decided to redesign the pages in order to address the issues faced by both students and teaching assistants.
+            </p>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Research</h5>
+            <h4>Uncover 4 problems through heuristic evaluation and interviews</h4>
+            <div class="mt-2 mb-4">
+                <!-- <p>We adopted distinct methods to uncover underlying tasks, behaviors and pain points for students and teaching assistants. To understand students' experiences, we examined the existing user flow, drawing upon the team's collective experience with the platform. For teaching assistants, whose responsibilities were unfamiliar for us, we opted for in-depth interviews to gain deeper insights into their challenges and needs.
+                </p> -->
+            </div>
+            <div class="mt-2 mb-4">
+                <h6>1. Heuristic Evaluation for Students</h6>
+                <p>As all members in the Design Team have prior experience using PDOGs, we conducted a heuristic evaluation to understand students' experiences. We found that the main challenge of the current platform was the scattered presentation of information, leading to a lengthy process for retrieving information and submitting assignments.
+                </p>
+                <div class="mb-2 d-flex flex-row align-items-center justify-content-center">
+                    <img src="image/pdog/student paiinpoint 1.png" alt="wireframe v1" class="mt-4 mb-2" style="width: 80%">
+                </div>
+                <div class="mb-2 d-flex flex-row align-items-center justify-content-center">
+                    <img src="image/pdog/student paiinpoint 2.png" alt="wireframe v1" class="mt-4 mb-2" style="width: 80%">
+                </div>
+                <div class="mb-4 d-flex flex-row align-items-center justify-content-center">
+                    <img src="image/pdog/student paiinpoint 3.png" alt="wireframe v1" class="mt-4 mb-2" style="width: 90%">
+                </div>
+            </div>
+            <div class="mt-4 mb-2">
+                <h6>2. Interview Teaching Assistants</h6>
+                <p class="mb-2">We conducted interviews with 6 TAs from the two Information Management courses with the highest student enrollment. The interview process was conducted by asking participants to showcase their typical operations on the PDOGs website, then pointing out areas where they have encountered inconvenience or confusion. Our goals were to:
+                </p>
+                <ul>
+                    <li><p>Understand the behaviors, experiences and feelings of TAs using PDOGs</p></li>
+                    <li><p>Understand the challenges encountered by TAs while using PDOGs</p></li>
+                    <li><p>Identify areas for improvements of PDOGs</p> </li>
+                </ul>
+                <!-- <h5>Affinity Diagram</h5> -->
+                <p>We grouped similar opinions to pinpoint underlying trends from research through the affinity diagram below. As I presented it to the development team, we further separated them into problems from the system or the interface. 
+                </p>
+                <div class="mt-4 mb-4 d-flex flex-column align-items-center justify-content-center">
+                    <img src="image/pdog/affinity diagram.png" alt="wireframe v1" class="mt-4 mb-2" style="width: 40%">
+                </div>
+                <div class="mt-4 mb-4 d-flex flex-column align-items-center justify-content-center">
+                    <img src="image/pdog/TA pain point.png" alt="wireframe v1" class="mt-4 mb-2" style="width: 120%">
+                </div>
+        </div>
+    </section>
+
+    <section class="py-5 brinno-bg">
+        <div class="container d-flex flex-column align-items-center ">
+            <div class="d-flex flex-column align-items-center">
+                <h4>Goal</h4>
+                <p>Provide clear instructions and sufficient information on each page, making the system easier to use for students and TAs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Design Improvements</h5>
+            <h4 class="mb-4"></h4>
+            <div class="mb-4">  
+                <h6 class="mb-3">1. Redefine font size and column min/max width to maximize spacing</h6>
+                <p class="mb-4">We examined and redefined the maximum width of table fields to optimize the displayed information and prevent the information being splitting. As shown below, the redesigned page effectively utilizes page spacing. </p>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-6 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/table v1 (1).png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-6 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/Challenge.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">  
+                <h6 class="mb-3">2. Redesign sidebar</h6>
+                <p class="mb-2">xxxx</p>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-4 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/side bar v1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-9 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/side bar v2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">  
+                <h6 class="mb-3">3. Prioritize important information</h6>
+                <p class="mb-2"></p>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-4 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/info v1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-9 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/info v2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-4 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/submission v1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-9 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/submission v2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-4 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/grade v1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-9 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/grade v2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">  
+                <h6 class="mb-3">4. Clearer Cues for TA</h6>
+                <p class="mb-2"></p>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-9 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <!-- <p class="design-title pdog-title mt-2">After</p> -->
+                            <div class="p-0"> 
+                                <img src="image/pdog/hover.png" alt="wireframe v1" class="mt-4 mb-2" style="max-width: 70%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-6 mr-4 p-0">
+                        <p class="design-title mt-2">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/placeholder v1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-6 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/placeholder v2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex flex-row justify-content-between">
+                    <div class="col-6 mr-4 p-0">
+                        <p class="design-title mt-2 mb-4">Before</p>
+                        <div class="p-0"> 
+                            <img src="image/pdog/error 1.png" alt="wireframe v1" class="mt-4 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-6 ml-4 mb-4 d-flex justify-content-between p-0">
+                        <div>
+                            <p class="design-title pdog-title mt-2 mb-4">After</p>
+                            <div class="p-0"> 
+                                <img src="image/pdog/error 2.png" alt="wireframe v1" class="mt-4 mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">RWD Design</h5>
+            <h4 class="mb-4">Improve mobile experience</h4>
+            <div class="mb-4 d-flex flex-row justify-content-between">
+                <div class="col-2 p-0 mr-1"> 
+                    <img src="image/pdog/rwd 1.png" alt="wireframe v1" class="mb-2">
+                </div>
+                <div class="col-2 p-0 mr-1"> 
+                    <img src="image/pdog/rwd 2.png" alt="wireframe v1" class="mb-2">
+                </div>
+                <div class="col-2 p-0 mr-1"> 
+                    <img src="image/pdog/rwd 4.png" alt="wireframe v1" class="mb-2">
+                </div>
+                <!-- <div class="col-2 p-0"> 
+                    <img src="image/pdog/rwd 4.png" alt="wireframe v1" class="mb-2">
+                </div> -->
+                <div class="col-2 p-0"> 
+                    <img src="image/pdog/rwd 5.png" alt="wireframe v1" class="mb-2">
+                </div>
+                <div class="col-2 p-0"> 
+                    <img src="image/pdog/rwd 6.png" alt="wireframe v1" class="mb-2">
+                </div>
+            </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Prototype</h5>
+            <h4 class="mb-4"></h4>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FiP3KCe6HhmWMKhmVKrhcIw%2FPDOGs-Prototype%3Ftype%3Ddesign%26node-id%3D0-1883%26t%3D1HNrpSIFXaZyE9QC-1%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26mode%3Ddesign" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Prototype</h5>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="80%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FSjnadktXD0XeF6OKxq1kDM%2FPortfolio%3Ftype%3Ddesign%26node-id%3D310-39721%26t%3DMai18U0wdmi5P5lx-1%26scaling%3Dmin-zoom%26page-id%3D1%253A3%26starting-point-node-id%3D310%253A29299%26mode%3Ddesign" allowfullscreen></iframe>
+        </div>
+    </section> -->
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h5 class="pdog-title">Reflection</h5>
+            <!-- <div class="mt-2">
+                <h6>What I've learned</h6>
+                <p>This is my first time engaging in a real-world design project. I realized that there are many limitations. For example, I didn't have much time and resources to conduct user research in the beginning of the project, and we spent lots of time to confirm technical feasibility. Therefore, I learned to start with establishing hypotheses based on existing information, discuss with the team, and make adjustments accordingly. While it might seem uncertain at first, it helps me to gather feedback and reach consensus with the team more efficiently. 
+                    l also learned it's important to step in users' shoes and design simple and intuitive interfaces, especially when most users are unfamiliar with technology.
+                </p>
+            </div>
+            <div class="mt-2">
+                <h6>What I'd have done better</h6>
+                <p>If I knew we couldn't interview many users, I'd spend more time on desk research at the beginning of the project. Understanding the industry more comprehensively would help me to empathize with the users better later on. Moreover, I'd want to test the design with real users, and refine the design based on their feedback. 
+                </p>
+            </div> -->
+            <div class="mt-2">
+                <h6>1. Improve the ability of time management and team collaboration</h6>
+                <p>In my first experience as a design leader, I was responsible for defining project goals and managing the schedule from the beginning. This was an invaluable learning experience for me, as I realized the value of ensuring that every team member comprehends their responsibilities well and incorporating the requirements and timelines of the development team into the decision-making process.
+                </p>
+            </div>
+            <div class="mt-2">
+                <h6>2. The challenge of considering two users in design</h6>
+                <p>This project involves both student and teaching assistant roles. While these roles are not entirely conflicting, it's easy to overlook details related to one side during the design process. There's also a need to balance the importance of different features for each role.
+                </p>
+            </div>
+            <div class="mt-2">
+                <h6>3. Constraints when improving existing system</h6>
+                <p>During the initial design phase, we came up with several ideas which were later discarded after discussing with the development team. I learned that when improving an established system, it's important to avoid getting carried away with fanciful ideas. Instead, we should focus on finding feasible enhancements within the existing framework.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Add more sections for additional topics or steps as needed -->
+
+    <!-- Footer Section -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Your Name</p>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include your custom JavaScript and any other necessary scripts here -->
+</body>
+</html>

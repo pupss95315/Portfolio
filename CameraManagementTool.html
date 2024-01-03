@@ -57,7 +57,7 @@
         <div class="container">
             <h5 class="brinno-title">Overview</h5>
             <h4>A platform allowing constructors to view camera screen and status in real-time</h4>
-            <p>Camera management tool is a platform designed in a cooperation project hosted by Prof. Lin at National Taiwan University and the time lapse photography company Brinno. Our goal was to build a platform <strong>enabling constructors to effectively manage time-lapse cameras among multiple construction projects</strong>. Camera management tool allows constructors to <strong>control camera settings and view camera screen remotely</strong>. Moreover, they can <strong>upload and share images to their clients</strong>.
+            <p>Camera management tool is a platform designed in a cooperation project hosted by Prof. Lin at National Taiwan University and the time lapse photography company Brinno. Our goal was to build a platform <strong>enabling constructors to effectively manage time-lapse cameras among multiple construction projects</strong>. Camera management tool allows constructors to <strong>control camera settings and view camera screen remotely</strong>, and <strong>upload and share images to their clients</strong>.
             </p>
             <div class="project-info d-flex flex-row justify-content-between">
                 <div>
@@ -127,11 +127,11 @@
                 <h4>Key Findings</h4>
                 <div class="mt-2">
                     <div class="mb-3">
-                        <p class="mb-2">1. Users can only <strong>spot issues</strong> such as tilted or blocked camera screens <strong>on-site</strong>, often leading to unusable images.</p>
+                        <p class="mb-2">1. Users can only <strong>spot issues</strong> such as skewed or blocked camera screens <strong>on-site</strong>, often leading to unusable images.</p>
                         <p class="ml-4 small-text user-opinions">"The rain causes unclear visuals, while the sun creates glare. Many scenes are unusable and are ultimately edited out."</p>
                     </div>
                     <div class="mb-3">
-                        <p class="mb-2">2. Users struggle to frequently modify camera settings due to <strong>labor and time shortage</strong>.</p>
+                        <p class="mb-2">2. Users struggle to frequently modify camera settings due to <strong>manpower and time shortage</strong>.</p>
                         <p class="ml-4 small-text user-opinions">“It's impossible to check cameras on-site every day. However, we typically visit once every one to two months.”</p>
                     </div>
                     <div class="mb-3">
@@ -151,7 +151,7 @@
     <section class=" py-5">
         <div class="container">
             <h5 class="brinno-title">Persona</h5>
-            <h4>Focus on understanding photographers’ responsibility</h4>
+            <h4>Focus on understanding photographers’ responsibilities</h4>
             <p>After conducting user interviews, we found that construction managers and engineers rarely take an active role in managing cameras; instead, they often <strong>delegated the task to professional photographers</strong>. This led us to shift our focus towards photographers' point of view. Creating persona enables us to <strong>thoroughly explore their needs, frustrations, and thoughts</strong>.         
             </p>
             <div class="d-flex justify-content-center">
@@ -164,14 +164,14 @@
         <div class="container">
             <h5 class="brinno-title">Brainstorming</h5>
             <h4>Drawing from existing real-time camera platforms for design inspiration</h4>
-            <p>As I began brainstorming possible design solutions, it occurred to me that <strong>real-time cameras used for traveling or hiking</strong> and <strong>home security cameras</strong> share the same need for construction camera preview. As a result, I gathered valuable insights from my observations of Zermatt Webcam and Umbo TruePlatform.
+            <p>As I began brainstorming possible design solutions, it occurred to me that <strong>real-time cameras used for traveling or hiking</strong> and <strong>home security cameras</strong> share the same need for construction camera preview. As a result, I gathered valuable insights from my observations from Zermatt Webcam and Umbo TruePlatform.
             </p>
             <div class="d-flex justify-content-center">
                 <img src="image/brinno/Zermatt.png" alt="Zermatt" class="col-6 mt-4 mb-4">
                 <img src="image/brinno/Umbo.png" alt="Umbo True Platform" class="col-6 mt-4 mb-4">
             </div>
             <h4>Ideate platform features based on 4 main user needs</h4>
-            <p>Combining insights from research and market analysis, I revisited our persona and proposed platform feature ideas aligned with the 4 mian user needs.
+            <p>Combining insights from research and market analysis, I revisited our persona and proposed potential platform features aligned with the 4 mian user needs.
             </p>
             <div class="d-flex justify-content-center">
                 <img src="image/brinno/feature.png" alt="features" class="mt-4">
@@ -182,7 +182,7 @@
         <div class="container">
             <h5 class="brinno-title">User Flow</h5>
             <h4>Storyboard</h4>
-            <p>After coming up with nitial ideas for the platform features, I created a storyboard to visualize the user flow before starting the design process. This helped me to understand <strong>how users interact with these features in different stages of construction projects</strong>.</p>
+            <p>After coming up with initial ideas for the platform features, I created a storyboard to visualize the user flow before starting the design process. This helped me to understand <strong>how users interact with these features in different stages of construction projects</strong>.</p>
             <div class="d-flex justify-content-center">
                 <img src="image/brinno/storyboard.png" alt="storyboard" class="mt-4" style="width: 70%">
             </div>
@@ -403,7 +403,7 @@
                 <div class="mb-5">
                     <div class="mb-4 d-flex felx-row justify-content-between">
                         <div>
-                            <p class="design-title mb-2">v1: Explore two ways to manage project roles</p>
+                            <p class="design-title mb-2">1. Explore two ways to manage project roles</p>
                             <p class="mt-2 mb-2">
                                 I investigated two common methods for managing permissions in a project. For the <strong>feature-based method</strong>, users can assign permissions (edit/view) to project members based on <strong>features (projects, cameras, and files).</strong> And for the <strong>role-based method</strong>, role permissions are predefined, and the owner can <strong>assign roles (member/guest) to project members</strong>. To simplify design and enhance development efficiency, we opted for the role-based method.
                             </p>
@@ -445,7 +445,7 @@
                     </div>
                     <div class="mb-4 d-flex felx-row justify-content-between">
                         <div>
-                            <p class="design-title mt-2 mb-2">v2: Define roles and role permissions</p>
+                            <p class="design-title mt-2 mb-2">2. Define roles and role permissions</p>
                             <p class="mt-2 mb-2">
                                 I proceeded to set roles and their permissions with the team. We observed that there are 3 main actors in most construction projects, including
                                 <strong>a project owner having access to all project settings</strong>, <strong>project members responsible for uploading files</strong> and <strong>clients that can only access to files</strong>. Therefore, the project roles were defined according to the observation. 
@@ -473,7 +473,7 @@
                     </div>
                     <div class="mb-4 d-flex felx-row justify-content-between">
                         <div>
-                            <p class="design-title mt-2 mb-2 brinno-title">v3: Iterate on UI</p>
+                            <p class="design-title mt-2 mb-2 brinno-title">3. Iterate on UI</p>
                             <div class="d-flex felx-row justify-content-between mb-4">
                                 <div class="p-0 mr-4"> 
                                     <img class="img-fluid mb-4" src="image/brinno/permission v3.png" alt="upload file v2">
@@ -606,7 +606,7 @@
             </div>
             <div class="mt-4">
                 <h6>3. Increase domain knowledge to better understand the users</h6>
-                <p>If I knew we wouldn't be able to interview many users, I would devote more time to desk research at the beginning of the project. As the project progresses, a thorough understanding of the industry will be useful in empathizing with the users.
+                <p>If I knew we wouldn't be able to interview many users, I would spent more time on desk research at the beginning of the project. As the project progresses, a thorough understanding of the industry will be useful in empathizing with the users.
                 </p>
             </div>
         </div>

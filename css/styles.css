@@ -93,12 +93,37 @@ a:active {
 img{
     max-width: 100%;
 }
+hr{
+    border: 1px solid #D0D0D0;
+}
+#language-switcher {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#language-switcher.hidden {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events when hidden */
+}
 .button{
     color: #3F3F3F;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-button{
+    display: flex;
+    justify-content: space-between;
 }
 /* Style the navigation bar */
 .navbar {

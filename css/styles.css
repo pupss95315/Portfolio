@@ -166,6 +166,30 @@ button h6:hover{
     padding: 64px 0;
 }
 
+.primary-button{
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #396EB0;
+    border-radius: 10px;
+    background-color: #ffff;
+    /* background: #396EB0; */
+
+    color: #396EB0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 150% */
+}
+
+.primary-button:hover {
+    background-color: #396EB0;
+    color: #ffff
+}
+
+
 /* .cover h1 {
     font-size: 36px;
     font-weight: bold;
@@ -292,10 +316,19 @@ a {
 }
 /* Style the footer */
 footer {
-    /* background-color: #396EB0; */
+    /* background-color: #EDEDFB; */
     color: #ffff;
     text-align: center;
     padding: 40px 0;
+}
+.improvement{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 3px dashed #5E60CE;
 }
 footer p{
     color: #3f3f3f
@@ -321,6 +354,15 @@ footer p{
 }
 .eggy-title{
     color: #F39800;
+}
+.learnly-title{
+    color: #5E60CE !important;
+}
+.learnly-secondary-title{
+    color: #F19020 !important;
+}
+.driver-title{
+    color: #508DC0 !important;
 }
 .exceed{
     position: relative;

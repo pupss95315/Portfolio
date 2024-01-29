@@ -47,7 +47,7 @@
     <!-- Cover Section -->
 
     <section class="text-center cover">
-        <div class="container">   
+        <div class="container p-0">   
             <h1 class="mb-5">相機管理工具</h1>
             <img src="image/brinno/birnno cover (3).png" alt="camera management tool">
         </div>
@@ -58,7 +58,7 @@
         <div class="container">
             <h6 class="brinno-title">概述</h6>
             <h4>一個提供給營建人員管理工程縮時攝影機及檔案的平台</h4>
-            <p><strong>相機管理工具</strong>（Camera Management Tool）是在台大與工程縮時攝影機公司 Brinno 產學合作專案中設計的平台，我們的目標是建立一個讓營建人員能夠有效管理不同專案中縮時攝影機的工具。透過相機管理工具，營建人員能夠<strong>遠端控制相機設定、檢視拍攝畫面、上傳照片並分享檔案給業主</strong>。
+            <p><strong>相機管理工具</strong>（Camera Management Tool）是在台大與工程縮時攝影機公司 Brinno 產學合作專案中設計的平台，我們的目標是建立一個讓營建人員能夠有效管理不同專案中縮時攝影機的平台。透過相機管理工具，營建人員能夠<strong>遠端控制相機設定、檢視拍攝畫面、上傳照片並分享拍攝檔案給業主</strong>，節省原本需要到工地現場監控相機的時間與人力，提升工作效率。
             </p>
             <div class="project-info d-flex flex-row justify-content-between">
                 <div>
@@ -86,7 +86,7 @@
             <h6 class="brinno-title">設計流程</h6>
             <h4 class="mb-4">經歷 4 個步驟，發想設計解法</h4> 
             <div class="d-flex justify-content-center pt-4">
-                <img src="image/brinno/zh/process_zh.png" alt="design process" class="mt-4" style="width: 70%">
+                <img src="image/brinno/zh/process_zh.png" alt="design process" style="width: 70%" class="mt-4 rwd-image">
             </div>
         </div>
     </section>
@@ -95,7 +95,7 @@
         <div class="container">
             <h6 class="brinno-title">背景</h6>
             <h4>現行管理工程攝影機的方法耗費時間與人力</h4>
-            <p>法律規定營建公司必須在所有工程項目中架設工程攝影機，除了<strong>確保施工人員的安全</strong>，也可以藉此<strong>監控施工進度</strong>。然而，目前管理工程攝影相機的方式非常耗時，相關人員必須<strong>親自到現場檢視相機拍攝的畫面、相機電量和記憶體使用情況</strong>。在人手不足的情況下，常常<strong>無法及時處理相機畫面被阻擋或電量/記憶體不足的問題</strong>，導致拍攝的畫面不符合業主需求或法律規定。因此，Brinno 希望開發一款專門為工程縮時攝影機設計的管理平台 (Camera Management Tool)，讓營建專案的業主可以<strong>即時查看相機狀態並有效率地管理不同專案中的相機</strong>。
+            <p>法律規定營建公司必須在所有工程項目中架設工程攝影機。除了<strong>確保施工人員的安全</strong>，也可以藉此<strong>監控施工進度</strong>。然而，目前管理工程攝影機的方式非常耗時，相關人員必須<strong>親自到現場檢視相機拍攝畫面、相機電量和記憶體使用情形</strong>。在人手不足的情況下，常常<strong>無法及時處理相機畫面被阻擋或電量及記憶體不足的問題</strong>，導致拍攝的畫面不符合業主需求或法律規定。因此，工程縮時攝影機公司 Brinno 希望開發一款專門用來管理工程攝影機的平台，讓營建專案的業主可以<strong>即時查看相機狀態並有效率地管理不同專案中的相機</strong>。
             </p>
         </div>
     </section>
@@ -111,9 +111,9 @@
     <section class=" py-5">
         <div class="container">
             <h6 class="brinno-title">使用者研究</h6>
-            <h4>以使用者旅程圖作為訪談架構，了解使用者</h4>
+            <h4>了解不同利害關係人管理工程攝影機的流程、行為與痛點</h4>
             <div class="mt-2 mb-4">
-                <p>我們進行了<strong>五場訪談</strong>，受訪者包含 3 個營建公司經理、1 位營建工程師與 1 位自由接案攝影師。我們在訪談中採用<strong>使用者旅程圖</strong>為架構的原因與流程如下：
+                <p>我們進行了<strong> 5 場訪談</strong>，受訪者包含 3 位營建公司經理、1 位營建工程師與 1 位自由接案攝影師。我們在訪談中採用<strong>使用者旅程圖</strong> （User Journey Map，簡稱：UJM）為架構的原因與流程如下：
                 </p>
                 <img src="image/brinno/zh/ujm.png" alt="persona" class="mt-4">
             </div>
@@ -121,7 +121,7 @@
     </section>
 
     <section class="py-5 bg-light">
-        <div class="container d-flex flex-column p-0">
+        <div class="container d-flex flex-column">
             <div class="d-flex flex-column">
                 <h4>關鍵洞察</h4>
                 <div class="mt-2">
@@ -130,11 +130,11 @@
                         <p class="ml-4 small-text user-opinions">「下雨畫面不清楚，太陽出來又反光，很多畫面不能用最後都剪掉。」</p>
                     </div>
                     <div class="mb-3">
-                        <p class="mb-2">2. 使用者因為人力不足，<strong>難以頻繁到現場設定相機</strong>.</p>
+                        <p class="mb-2">2. 使用者因為人力不足，<strong>難以頻繁到現場設定相機</strong>。</p>
                         <p class="ml-4 small-text user-opinions">「不可能每天去工地看相機，通常一到兩個月才會去一次。」</p>
                     </div>
                     <div class="mb-3">
-                        <p class="mb-2">3. 使用者認為現在的管理方式<strong>不易管理多台相機</strong>。需要改進。</p>
+                        <p class="mb-2">3. 使用者認為現在的管理方式<strong>不易管理多台相機</strong>，需要改進。</p>
                         <p class="ml-4 small-text user-opinions">「之前廠商多針對個人設計，但營建商會有多台相機需要管理，最好的方式是分不同階段呈現。」
                         </p>
                     </div>
@@ -151,10 +151,10 @@
         <div class="container">
             <h6 class="brinno-title">人物誌</h6>
             <h4>專注於了解攝影師的職責</h4>
-            <p>在訪談後我們發現營建廠商較少參與架設與管理相機的流程，通常<strong>交由專業的攝影師處理</strong>。於是，我們決定從攝影師的角度出發，而人物誌能讓我們更全面的<strong>探索使用者需求、挫折以及想法</strong>。</strong>.         
+            <p>在訪談後我們發現營建公司人員較少擔任架設與管理工程攝影機主要負責人，這些工作通常<strong>交由專業的攝影師處理</strong>。於是，我們決定從攝影師的角度出發進行後續的設計發想，而人物誌能讓我們更全面的<strong>探索使用者需求、挫折以及想法</strong>。</strong>.         
             </p>
             <div class="d-flex justify-content-center">
-                <img src="image/brinno/zh/人物誌.png" alt="persona" class="mt-4" style="width: 80%">
+                <img src="image/brinno/zh/人物誌.png" alt="persona" style="width: 80%" class="mt-4 rwd-image">
             </div>
         </div>
     </section>
@@ -163,24 +163,24 @@
         <div class="container">
             <h6 class="brinno-title">設計發想</h6>
             <h4>參考市面上即時攝影機平台，汲取設計靈感</h4>
-            <p>在開始發想設計時，我想到<strong>旅遊或家庭安全即時監控攝影機</strong>和工程攝影機監控會用到的功能非常相似。因此，我從<strong>策馬特 webcam</strong> 跟 <strong>Umbo TruePlatform</strong> 汲取設計靈感。
+            <p>在開始發想平台功能時，我想到<strong>監控旅遊景點或是家庭安全的即時攝影機</strong>平台，和工程攝影機管理會需要的功能非常相似。因此，我從<strong>策馬特 webcam</strong> 跟 <strong>Umbo TruePlatform</strong> 汲取設計靈感。
             </p>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center rwd-design">
                 <img src="image/brinno/zh/Zermatt.png" alt="Zermatt" class="col-6 mt-4 mb-4">
                 <img src="image/brinno/zh/Umbo.png" alt="Umbo True Platform" class="col-6 mt-4 mb-4">
             </div>
             <h4>根據使用者四大需求發想相應平台功能</h4>
-            <p>結合使用者研究與市場分析的發現，我重新檢視了人物誌，並提出以下能夠滿足使用者需求的平台功能。</p>
+            <p>綜合使用者研究與市場分析的發現，我重新檢視了人物誌，並提出以下能夠滿足使用者需求的平台功能。</p>
             <div class="d-flex justify-content-center">
                 <img src="image/brinno/zh/feature.png" alt="features" class="mt-4">
             </div>
         </div>
     </section>
     <section class=" py-5">
-        <div class="container p-0">
+        <div class="container">
             <h6 class="brinno-title">使用者流程</h6>
             <h4>繪製故事板，釐清使用者和平台互動流程</h4>
-            <p>在有了平台功能的初步想法之後，我繪製故事板，<strong>釐清使用者在專案不同階段和功能的互動</strong>。</p>
+            <p>在有了平台功能的初步想法之後，我繪製了故事板，以視覺化的方式呈現使用者在專案不同階段和功能的互動。</p>
             <div class="d-flex justify-content-center">
                 <img src="image/brinno/storyboard.png" alt="storyboard" class="mt-4" style="width: 70%">
             </div>
@@ -192,14 +192,14 @@
             <h4>迭代平台架構</h4>
             <div class="mt-2 mb-2">
                 <h6>v1</h6>
-                <p>我開始透過線框稿嘗試不同功能在平台上的呈現方式。我最初的想法是使用者從 <strong>Login 頁面</strong>登入後會被導引到呈現專案中所有相機的 <strong>Project 頁面</strong>。在點擊任一相機後，使用者即會進入 <strong>Camera Preview 頁面</strong>，檢視相機畫面及狀態。從 Camera Preview 頁面可以導引到 <strong>File 頁面</strong>，在此頁面中可以上傳並分享相機拍攝檔案。</p>
+                <p>透過線框稿，我嘗試將平台功能呈現在頁面上。我最初的想法是使用者從 <strong>Login 頁面</strong>登入後會被導引到呈現專案中所有相機的 <strong>Project 頁面</strong>。在點擊任一相機後，使用者即會進入 <strong>Camera Preview 頁面</strong>，檢視相機畫面和狀態，也可以設定相機排程。從 Camera Preview 頁面可以導引到 <strong>File 頁面</strong>，在此頁面中可以上傳並分享相機拍攝檔案。</p>
                 <div class="d-flex justify-content-center">
                     <img src="image/brinno/wireframe1.png" alt="wireframe v1" class="mt-4 mb-2">
                 </div>
             </div>
             <div class="mt-2">
                 <h6>v2</h6>
-                <p>在與團隊討論後，我們做了兩個更動。首先，我們增加了 <strong>Dashboard</strong> 和 <strong>Device list 頁面</strong> ，使用者可以以<strong>專案或是設備為單位</strong>去管理相機。而因為技術上的限制，將<strong>視角對比</strong>功能從 Camera Preview 頁面移除。
+                <p>在與團隊討論後，我們做了兩個更動。首先，我們增加了 <strong>Dashboard</strong> 和 <strong>Device list 頁面</strong>，因此使用者可以以<strong>專案或是設備為單位</strong>去管理相機。而因為技術上的限制，將<strong>視角對比</strong>功能從 Camera Preview 頁面移除。
                 </p>
                 <div class=" d-flex justify-content-between mt-4 mb-4 wireframe1">
                     <div class="p-0 col-4 mr-3">
@@ -284,15 +284,15 @@
                             </div>
                             <div>
                                 <div class="mb-1 d-flex flex-row">
-                                    <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                     <p class="design-desc small-text">彈出式視窗對於第一次的使用者較為直覺</p>
                                 </div>
                                 <div class="mb-1 d-flex flex-row">
-                                    <img class="mr-2" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                    <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
                                     <p class="design-desc small-text">上傳區域對於要一次上傳大量檔案的使用者不方便</p>
                                 </div>
                                 <div class="mb-2 d-flex flex-row">
-                                    <img class="mr-2" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                    <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
                                     <p class="design-desc small-text">需要等到所有檔案結束上傳後才能關閉視窗</p>
                                 </div>
                             </div>
@@ -309,7 +309,7 @@
                             </div>
                             <div>
                                 <div class="mb-2 d-flex flex-row">
-                                    <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                     <p class="design-desc small-text">更多空間可以拖曳檔案，且使用者可以在等待上傳的同時進行其他任務</p>
                                 </div>
                             </div>
@@ -321,7 +321,7 @@
                             <div class="mb-4 d-flex felx-row justify-content-between align-items-start">
                                 <div class="p-0 mr-4">
                                     <!-- <p class="p-0 col-8 design-title mt-2 mb-2">v1: Explore two ways to share files</p> -->
-                                    <p class="mb-2">我提出了兩種分享檔案的方式，考量到在營建專案中，多數業主都是使用<strong>電腦</strong>去查看相機拍攝的檔案，b 會是比較好的選擇。</p>
+                                    <p class="mb-2">我提出了兩種分享檔案的方式，考量到在營建專案中，多數業主都是使用<strong>電腦</strong>去查看相機拍攝的檔案，b（透過連結分享）會是比較好的選擇。</p>
                                     <!-- <div class="d-flex felx-row justify-content-between">
                                         <p class="p-0 col-4 design-title mt-2 mb-2">v2: Iterate on UI</p>
                                     </div> -->
@@ -335,7 +335,7 @@
                                             <img class="img-fluid" src="image/brinno/share drop v1 a.png" alt="upload file v2">
                                             <div>
                                                 <div class="mb-2 d-flex flex-row">
-                                                    <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                                     <p class="design-desc small-text">可以直接在營建工地掃描 QR code </p>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@
                                             <img class="img-fluid" src="image/brinno/share drop v1 b.png" alt="upload file v2">
                                             <div>
                                                 <div class="mb-2 d-flex flex-row">
-                                                    <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                                     <p class="design-desc small-text">對於使用電腦的使用者更方便</p>
                                                 </div>
                                             </div>
@@ -366,15 +366,15 @@
                     <div>
                         <h6 class="mb-2 pt-4">3. 檔案列表</h6>
                         <div class="mb-4">  
-                            <p class="mb-2">我一開始的想法是<strong>顯示每個檔案的縮圖</strong>，可以方便辨識檔案。但在描繪出 UI 之後發現這樣會<strong>讓畫面變得凌亂，且難以從縮圖中辨識出檔案的差異</strong>。於是，我改為使用像是<strong>檔案格式</strong>等更有鑑別力的指標去表示每個檔案。</p>
-                            <div class="mb-4 d-flex flex-row justify-content-between pt-2">
+                            <p class="mb-2">我的初步想法是<strong>顯示每個檔案的縮圖</strong>，方便使用者辨識檔案的差異。但在描繪出 UI 之後發現這樣會<strong>讓畫面變得凌亂</strong>，且<strong>縮時攝影會產生大量相同的縮圖</strong>，反而很難從中分辨檔案的差異。於是，我改為使用像是<strong>檔案格式</strong>等指標去分辨每個檔案。</p>
+                            <div class="mb-4 d-flex flex-row justify-content-between pt-2 rwd-design">
                                 <div class="mr-4">
                                     <p class="design-title mt-2 mb-2">v1: 顯示相片縮圖</p>
                                     <div class="p-0 mb-2 pt-2 pb-2"> 
                                         <img src="image/brinno/file list v1.png" alt="file list v1">
                                     </div>
                                     <div class="mb-4 d-flex flex-row">
-                                        <img class="mr-2" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                        <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
                                         <p class="mb-4 design-desc small-text">一次顯示大量相似圖片讓人困惑</p>
                                     </div>
                                 </div>
@@ -385,7 +385,7 @@
                                             <img src="image/brinno/file list v2.png" alt="file list v1">
                                         </div>
                                         <div class="mb-4 d-flex flex-row">
-                                            <img class="mr-2" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
                                             <p class="design-desc small-text">讓畫面變得更簡潔，也可以用 icon 去區分檔案格式</p>
                                         </div>
                                     </div>
@@ -402,19 +402,19 @@
                         <div>
                             <p class="design-title mb-2">1. 探索兩種權限管理的方式</p>
                             <p class="mt-2 mb-2">
-                                若是採用<strong>功能型的權限管理</strong>，使用者可以<strong>為專案成員設定不同功能（專案、相機、檔案）的權限（編輯、檢視）</strong>。而若採用<strong>角色型的權限管理</strong>，每個角色的權限是先定義好的，團隊負責人可以將<strong>先定義好的角色分配給專案成員（成員、客人）</strong>。為了<strong>提升開發效率、簡化權限管理</strong>的操作，我們選擇角色型的權限管理。
+                                若是採用<strong>功能型的權限管理</strong>，使用者可以<strong>為專案成員設定不同功能（專案、相機、檔案）的權限（編輯、檢視）</strong>。而若採用<strong>角色型的權限管理</strong>，每個角色的權限是先定義好的，團隊負責人可以將<strong>定義好的角色分配給專案成員（成員、客人）</strong>。為了<strong>提升開發效率、簡化權限管理</strong>的操作，我們採用角色型的權限管理。
                             </p>
-                            <div class="d-flex felx-row justify-content-center mb-4 p-0 pt-2">
+                            <div class="d-flex felx-row justify-content-center mb-4 p-0 pt-2 rwd-design">
                                 <div class="p-0 col-4 pr-4 mr-4 justify-content-center"> 
                                     <p class="design-title mt-2 mb-2">a. 功能型</p>
                                     <img class="img-fluid mb-2 pt-2 pb-2" src="image/brinno/permission v1 a.png" alt="upload file v2" style="max-width: 100%">
                                     <div>
                                         <div class="mb-1 d-flex flex-row">
-                                            <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                             <p class="design-desc small-text">有較大彈性的客製化</p>
                                         </div>
                                         <div class="mb-2 d-flex flex-row">
-                                            <img class="mr-2" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                            <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
                                             <p class="design-desc small-text">需要手動為每個功能設定權限</p>
                                         </div>
                                     </div>
@@ -426,11 +426,11 @@
                                     <img class="img-fluid mb-2 pt-2 pb-2" src="image/brinno/permission v1 b.png" alt="upload file v2" style="max-width: 100%">
                                     <div>
                                         <div class="mb-1 d-flex flex-row">
-                                            <img class="mr-2" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
                                             <p class="design-desc small-text">管理上更為簡單、直覺</p>
                                         </div>
                                         <div class="mb-2 d-flex flex-row">
-                                            <img class="mr-2" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
                                             <p class="design-desc small-text">提升開發效率</p>
                                         </div>
                                     </div>
@@ -444,9 +444,9 @@
                         <div>
                             <p class="design-title mt-2 mb-2">2. 定義角色與權限</p>
                             <p class="mt-2 mb-2">
-                                在決定權限管理方式後，我進而與團隊一同設定角色與權限。我們發現在營建專案中通常都有三個主要的角色，分別為<strong>擁有所有權限的專案負責人</strong>、<strong>負責上傳相機檔案的專案成員</strong>，以及<strong>只能夠檢視檔案的顧客</strong>。因此，我們根據上述的發現定義角色權限。
+                                在決定權限管理方式後，我進而與團隊一同設定角色與權限。我們發現在營建專案中通常有三個主要的角色，分別為<strong>擁有所有權限的專案負責人</strong>、<strong>負責上傳相機檔案的專案成員</strong>，以及<strong>只能夠檢視檔案的業主</strong>。因此，我們根據上述的發現定義角色權限。
                             </p>
-                            <div class="d-flex felx-row justify-content-between align-items-center mb-4">
+                            <div class="d-flex felx-row justify-content-between align-items-center mb-4 rwd-design">
                                 <div class="p-0 col-5 mr-4"> 
                                     <img class="img-fluid" src="image/brinno/permission v2.png" alt="upload file v2">
                                 </div>
@@ -484,7 +484,7 @@
                 <h5 class="mb-4">Settings 頁面</h5>
                 <div>
                     <h6>1. 個人檔案與帳號設定</h6>
-                    <p class="mb-4">一開始因為安全性考量，我將個人檔案與帳號設定分開呈現在兩個不同的頁面。但在 UI 設計階段時，我發現若是將兩個設定結合在同個頁面可以節省頁面空間，也可以維持安全性。</p>
+                    <p class="mb-4">在第一個版本的設計中，我認為帳號與密碼的更動涉及了安全性考量，所以將其與個人檔案在設定中分開呈現在不同的頁面。但在 UI 設計階段時，我發現若是將兩個設定結合在同個頁面可以節省頁面空間、使用者更改設定的時間，也可以維持安全性。</p>
                     <div class="mb-5">
                         <div class="mb-4 d-flex felx-row justify-content-between align-items-center">
                             <div class="p-0 col-5 mr-4">
@@ -499,9 +499,9 @@
                 </div>
                 <div>
                     <h6>2. 通知設定</h6>
-                    <p class="mb-4">根據團隊建議，我拉近了第一個版本設計中 toggle 和相應標籤的距離，讓使用者更容易辨識想要按的 toggle。另外，我也將通知根據功能分類，讓使用者可以更快找到他們想要更改設定的通知。</p>
+                    <p class="mb-4">根據團隊建議，在第二個版本的設計中，我拉近了第一個版本中 toggle 和相應標籤的距離，讓使用者<strong>更容易辨識想要按的 toggle</strong>。另外，我也將通知根據功能分類，讓使用者可以<strong>更快找到他們想要更改設定的通知</strong>。</p>
                     <div class="mb-5">
-                        <div class="mb-4 d-flex felx-row justify-content-between align-items-center">
+                        <div class="mb-4 d-flex felx-row justify-content-between align-items-center rwd-design">
                             <div class="p-0 col-6">
                                 <p class="design-title mt-2 mb-2">v1: 列出所有通知</p>
                                 <img class="img-fluid" src="image/brinno/notification 1.png" alt="upload file v2">
@@ -527,7 +527,7 @@
                     <p>使用者可以遠端控制排程，並及時監控相機電量、剩餘記憶體與拍攝情形，節省到工地現場設定/檢查的時間，也能及時發覺相機畫面異狀。
                     </p>
                 </div>
-                <div class="p-0 d-flex flex-row justify-content-between align-items-center">
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/preview ui.png" alt="upload file v2">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/schedule ui.png" alt="upload file v2">
                 </div>
@@ -538,7 +538,7 @@
                     <p>使用者可以上傳不同格式的拍攝檔案，並分享僅供檢視的檔案給業主，除了提升來回溝通，也能夠避免業主在查看檔案時不小心更改相機設定。
                     </p>
                 </div>
-                <div class="p-0 d-flex flex-row justify-content-between align-items-center">
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/upload ui.png" alt="upload file v2">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/share file.png" alt="upload file v2">
                 </div>
@@ -549,7 +549,7 @@
                     <p>使用者可以選擇要以專案或是設備為單位去管理相機，改變過去以單一設備為主的管理方式，方便監控專案內以及所有設備的設定及拍攝情形。
                     </p>
                 </div>
-                <div class="p-0 d-flex flex-row justify-content-between align-items-center">
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/dashboard ui.png" alt="upload file v2">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/Device list ui.png" alt="upload file v2">
                 </div>
@@ -560,7 +560,7 @@
                     <p>將專案角色分成三種權限，提升內部管理與外部溝通的效率。
                     </p>
                 </div>
-                <div class="p-0 d-flex flex-row justify-content-between align-items-center">
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/team ui.png" alt="upload file v2">
                     <img class="p-0 col-6 img-fluid" src="image/brinno/add member ui.png" alt="upload file v2">
                 </div>
@@ -592,12 +592,12 @@
             <div class="mt-4">
                 <h6>1. 學習如何面對真實世界情境的限制與不確定性</h6>
                 <p>
-                    專案過程中認知到在真實世界存在許多限制是需要做 trade off 的。例如，在專案前期並沒有太多時間及資源做研究，而後期設計花了很長的時間確認技術上的可行性。我學會先透過現有資料建立初步假設，再根據與團隊的討論去驗證假設，進而做調整。雖然會面臨較多不確定性，卻能更有效率地取得團隊內的反饋與共識。
+                    專案過程中認知到在真實世界存在許多限制是需要權衡的。例如，在專案前期並沒有太多時間及資源做研究，而後期設計花了很長的時間確認技術上的可行性。我學會先透過現有資料建立初步假設，再根據與團隊的討論去驗證假設，進而做調整。雖然會面臨較多不確定性，卻能更有效率地取得團隊內的反饋與共識。
                 </p>
             </div>
             <div class="mt-4">
                 <h6>2. 針對不熟悉科技科使用者設計</h6>
-                <p>因為多數使用者為不熟悉科技產品的營建人員，因此我學習站在使用者的角度思考、設計直覺的介面，讓他們可以更容易了解網站的操作。
+                <p>因為多數使用者為不熟悉科技產品的營建人員，因此我學習站在使用者的角度思考，設計直覺的介面，讓他們可以更容易了解網站的操作。
                 </p>
             </div>
             <div class="mt-4">
@@ -618,11 +618,11 @@
         </div>
     </section> -->
     
-    <footer>
+    <footer class="me-title">
         <div class="container p-0">
             <div class="footer-container">
                 <div class="footer-button">
-                    <a class="nav-link" href="https://www.linkedin.com/in/chien-chi-hsu-b1b417200/" target="_blank"><h6>Linkedin</h6></a>
+                    <a class="nav-link linkedin" href="https://www.linkedin.com/in/chien-chi-hsu-b1b417200/" target="_blank"><h6>Linkedin</h6></a>
                     <a class="nav-link" href="mailto:r11725027@ntu.edu.tw"><h6>Email</h6></a>
                 </div>
                 <div>

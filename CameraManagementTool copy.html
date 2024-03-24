@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Management Tool</title>
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container" style="padding: 0px">
+            <a class="navbar-brand" href="index.html"><h4>Chien Chi Hsu</h4></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#projects"><h6>Projects</h6></a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <button class="nav-link dropbtn"><h6>Projects</h6></button>
+                        <div class="dropdown-content">
+                            <a href="#project1">Camera Management Tool</a>
+                            <a href="#project2">Project 2</a>
+                            <a href="#project3">Project 3</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./About.html"><h6>About</h6></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1jHDBnRxCWdXWxBVfPtuhqx2BAkZ4TLV8/view?usp=sharing" target="_blank"><h6>Resume</h6></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover Section -->
+
+    <section class="text-center cover">
+        <div class="container p-0">  
+            <h1 class="mb-5">Camera Management Tool</h1> 
+            <img src="image/brinno/birnno cover (3).png" alt="camera management tool">
+        </div>
+    </section>
+
+    <!-- Sections for Different Topics/Steps -->
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Overview</h6>
+            <h4>A platform allowing constructors to view camera screen and status in real-time</h4>
+            <p>Camera management tool is a platform designed in a cooperation project hosted by Prof. Lin at National Taiwan University and the time lapse photography company Brinno. Our goal was to build a platform <strong>enabling constructors to effectively manage time-lapse cameras among multiple construction projects</strong>. Camera management tool allows constructors to <strong>control camera settings and view camera screen remotely</strong>, and <strong>upload and share images to their clients</strong>.
+            </p>
+            <div class="project-info d-flex flex-row justify-content-between">
+                <div>
+                    <h4>Role</h4>
+                    <p>UI/UX Design Intern</p>
+                </div>
+                <div>
+                    <h4>Team</h4>
+                    <p>Engineer * 2<br>Designer * 2</p>
+                </div>
+                <div>
+                    <h4>Tools</h4>
+                    <p>Figma<br>Miro</p>
+                </div>
+                <div>
+                    <h4>Timeline</h4>
+                    <p>Oct. 2022 - June 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Process</h6>
+            <h4 class="mb-4">Follow 4 stages to come up with the design solution</h4> 
+            <div class="d-flex justify-content-center pt-4">
+                <img src="image/brinno/process (1).png" alt="design process"style="width: 70%" class="mt-4 rwd-image">
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Problem</h6>
+            <h4>Current construction camera management is time and labor-consuming</h4>
+            <p>It is mandatory to set up cameras in construction projects, not only to <strong>ensure the safety of the workers</strong> but also to <strong>monitor the construction progress</strong>. However, the current methods of managing these cameras are extremely inefficient, which requires constructors to <strong>check camera screens and status on-site</strong>. Moreover, when there is a labor shortage, constructors often <strong>fail to detect and solve problems instantly</strong>, leading to captured images or videos <strong>failing to meet client demands</strong> or <strong>complying with legal regulations</strong>.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container d-flex flex-column align-items-center ">
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="brinno-title">How might we help constructors effectively manage construction cameras? </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Research</h6>
+            <h4>Adopt "user journey mapping" in the interview to understand our users</h4>
+            <div class="mt-2 mb-4">
+                <p>On approaching this problem, it is important to <strong>understand how constructors manage cameras and the problems they encounter during the process</strong>. We conducted interviews with <strong>5 participants</strong>, including 3 construction company managers, 1 construction engineer and 1 freelance photographer. These interviews were structured using <strong>user journey map</strong> (UJM), and the reasoning and process are outlined below.
+                </p>
+                <img src="image/brinno/ujm.png" alt="persona" class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container d-flex flex-column">
+            <div class="d-flex flex-column">
+                <h4>Key Findings</h4>
+                <div class="mt-2">
+                    <div class="mb-3">
+                        <p class="mb-2">1. Users can only <strong>spot issues</strong> such as skewed or blocked camera screens <strong>on-site</strong>, often leading to unusable images.</p>
+                        <p class="ml-4 small-text user-opinions">"The rain causes unclear visuals, while the sun creates glare. Many scenes are unusable and are ultimately edited out."</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-2">2. Users struggle to frequently modify camera settings due to <strong>manpower and time shortage</strong>.</p>
+                        <p class="ml-4 small-text user-opinions">“It's impossible to check cameras on-site every day. However, we typically visit once every one to two months.”</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-2">3. Users hope the current <strong>camera management methods can be improved</strong> to support <strong>multiple devices</strong>.</p>
+                        <p class="ml-4 small-text user-opinions">“The current camera management method focuses on single device, but it is inevitable for construction companies to handle cameras in multiple projects at the same time. The best approach is to categorize them according to various stages.”
+                        </p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="mb-2">4. Users are often worried about <strong>camera settings being motified while sharing with their clients</strong>.</p>
+                        <p class="ml-4 small-text user-opinions">“When sharing camera screens with the client, the settings can easily be altered.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Persona</h6>
+            <h4>Focus on understanding photographers’ responsibilities</h4>
+            <p>After conducting user interviews, we found that construction managers and engineers rarely take an active role in managing cameras; instead, they often <strong>delegated the task to professional photographers</strong>. This led us to shift our focus towards photographers' point of view. Creating persona enables us to <strong>thoroughly explore their needs, frustrations, and thoughts</strong>.         
+            </p>
+            <div class="d-flex justify-content-center">
+                <img src="image/brinno/persona.png" alt="persona" class="mt-4" style="width: 80%">
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5 bg-light">
+        <div class="container">
+            <h6 class="brinno-title">Brainstorming</h6>
+            <h4>Drawing from existing real-time camera platforms for design inspiration</h4>
+            <p>As I began brainstorming possible design solutions, it occurred to me that <strong>real-time cameras used for traveling or hiking</strong> and <strong>home security cameras</strong> share the same need for construction camera preview. As a result, I gathered valuable insights from my observations from Zermatt Webcam and Umbo TruePlatform.
+            </p>
+            <div class="d-flex justify-content-center rwd-design">
+                <img src="image/brinno/Zermatt.png" alt="Zermatt" class="col-6 mt-4 mb-4">
+                <img src="image/brinno/Umbo.png" alt="Umbo True Platform" class="col-6 mt-4 mb-4">
+            </div>
+            <h4>Ideate platform features based on 4 main user needs</h4>
+            <p>Combining insights from research and market analysis, I revisited our persona and proposed potential platform features aligned with the 4 mian user needs.
+            </p>
+            <div class="d-flex justify-content-center">
+                <img src="image/brinno/feature.png" alt="features" class="mt-4">
+            </div>
+        </div>
+    </section>
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">User Flow</h6>
+            <h4>Storyboard</h4>
+            <p>After coming up with initial ideas for the platform features, I created a storyboard to visualize the user flow before starting the design process. This helped me to understand <strong>how users interact with these features in different stages of construction projects</strong>.</p>
+            <div class="d-flex justify-content-center">
+                <img src="image/brinno/storyboard.png" alt="storyboard" class="mt-4" style="width: 70%">
+            </div>
+        </div>
+    </section>
+    <section class=" py-5 bg-light">
+        <div class="container">
+            <h6 class="brinno-title">Wireframing</h6>
+            <h4>Iterate on the initial sketch of the platform</h4>
+            <div class="mt-2 mb-2">
+                <h6>Wireframe v1</h6>
+                <p>I then began sketching wireframes to explore how the features would present on the platform. Here's how it works: After logging in, users are directed to the <strong>Project page</strong>, which displays all cameras in a project. They can view the camera's preview and status by clicking on a camera card. Following that, they can navigate to each camera's <strong>File page</strong> from the <strong>Camera Preview page</strong>, where they can upload and share files.</p>
+                <div class="d-flex justify-content-center">
+                    <img src="image/brinno/wireframe1.png" alt="wireframe v1" class="mt-4 mb-2">
+                </div>
+            </div>
+            <div class="mt-2">
+                <h6>Wireframe v2</h6>
+                <p>After discussing with the team, some adjustments were made. First, <strong>Dashboard</strong> and <strong>Device list page</strong> were added so that users can manage cameras both by projects and devices. Moreover, the perspective comparison feature was removed from the Camera Preview page due to technical constraints.
+                </p>
+                <div class=" d-flex justify-content-between mt-4 mb-4 wireframe1">
+                    <div class="p-0 col-4 mr-3">
+                        <p class="design-title mt-2 mb-2">Dashboard</p>
+                        <img src="image/brinno/Dashboard.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-4 mr-3 ml-3">
+                        <p class="design-title mt-2 mb-2">Project</p>
+                        <img src="image/brinno/Project.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-4 ml-3">
+                        <p class="design-title mt-2 mb-2">Device List</p>
+                        <img src="image/brinno/Device list.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center wireframe2">
+                    <div class="p-0 col-4 mr-3">
+                        <p class="design-title mt-2 mb-2">Camera Preview</p>
+                        <img src="image/brinno/Camera preview.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-4 ml-3">
+                        <p class="design-title mt-2 mb-2">File</p>
+                        <img src="image/brinno/File page.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                </div>
+                <div class="wireframe-md">
+                    <div class="p-0 col-md-4">
+                        <p class="design-title mt-2 mb-2">Dashboard</p>
+                        <img src="image/brinno/Dashboard.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-md-4">
+                        <p class="design-title mt-2 mb-2">Project</p>
+                        <img src="image/brinno/Project.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-md-4">
+                        <p class="design-title mt-2 mb-2">Device List</p>
+                        <img src="image/brinno/Device List.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-md-4">
+                        <p class="design-title mt-2 mb-2">Camera Preview</p>
+                        <img src="image/brinno/Camera Preview.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                    <div class="p-0 col-md-4">
+                        <p class="design-title mt-2 mb-2">File</p>
+                        <img src="image/brinno/File page.png" alt="wireframe v1" class="mb-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Information Architecture</h6>
+            <h4>The structure of the platform</h4>
+            <p>The site map shows the structure of the platform. The Nav bar provides access to the main pages, including <strong>Dashboard</strong>, <strong>Project</strong>, and <strong>Device list</strong>. Within each project, there are <strong>Camera</strong>, <strong>File</strong>, and <strong>Team</strong>. The header contains links to personal settings such as <strong>Profile</strong>, <strong>Settings</strong>, and <strong>Notification</strong>. I focused on the design of File, Team, Settings and Camera preview, which are highlighted in yellow. 
+            </p>
+            <img src="image/brinno/IA.png" alt="Information Architecture" class="mt-4">
+        </div>
+    </section>
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Design Iteration</h6>
+            <h4 class="mb-4">Make design decisions based on feedback</h4>
+            <div>
+                <h6>File Page</h6>
+                <p class="mb-4">The two most important actions on the file page are <strong>uploading and sharing images</strong>. As a result, I experimented with various designs to optimize these tasks and iterated on <strong>the UI of the page</strong>.</p>
+                    
+                    <div>
+                        <h6 class="mb-2">1. Upload File</h6>
+                        <div class="mb-4">
+                            <p class="mb-3">I initially proposed a design where users could upload files by <strong>clicking the upload button and dragging files into a pop-up screen</strong>. However, I refined the design based on the team feedback that <strong>the upload area might be too small</strong> for users uploading <strong>a large number of files at once</strong>. Hence, the second iteration, which allows users to <strong>drop files directly into the page</strong>, will be more convenient for them.</p>
+                            <p class="design-title mt-2 mb-2 pt-2">v1: Pop up window</p>
+                            <div class="pt-2 pb-2 mb-2 d-flex felx-row justify-content-center">
+                                <div class="mr-4"> 
+                                    <img class="img-fluid" src="image/brinno/uploadv1_1.png" alt="upload file v2">
+                                </div>
+                                <div class="mr-4"> 
+                                    <img class="img-fluid" src="image/brinno/uploadv1_2.png" alt="upload file v2">
+                                </div>
+                                <div> 
+                                    <img class="img-fluid" src="image/brinno/uploadv1_2.png" alt="upload file v2">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-1 d-flex flex-row">
+                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                    <p class="design-desc small-text">The pop up  window is more intuitive for first-time users.</p>
+                                </div>
+                                <div class="mb-1 d-flex flex-row">
+                                    <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                    <p class="design-desc small-text">The upload area is limited for users dragging a huge amount of files.</p>
+                                </div>
+                                <div class="mb-2 d-flex flex-row">
+                                    <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                    <p class="design-desc small-text">Need to wait for all the files to finish uploading before closing the window.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4 pt-2">
+                            <p class="design-title brinno-title mt-2 mb-2">v2: Directly drag and drop files</p>
+                            <div class="mb-2 d-flex justify-content-between">
+                                <div class="p-0"> 
+                                    <img src="image/brinno/Drop files.png" alt="upload file v2">
+                                </div>
+                                <div class="p-0"> 
+                                    <img src="image/brinno/Upload.png" alt="upload file v2">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mb-2 d-flex flex-row">
+                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                    <p class="design-desc small-text">More space for dropping files, and save users’ time on other tasks while uploading.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="pt-4 mb-2">2. Share File</h6>
+                        <div class="mb-2">
+                            <div class="mb-4 d-flex felx-row justify-content-between align-items-start">
+                                <div class="p-0 mr-4">
+                                    <!-- <p class="p-0 col-8 design-title mt-2 mb-2">v1: Explore two ways to share files</p> -->
+                                    <p class="mb-2">I presented two ways for users to share files. Consider that <strong>most clients access files via desktop</strong>, b would be a better choice.</p>
+                                    <!-- <div class="d-flex felx-row justify-content-between">
+                                        <p class="p-0 col-4 design-title mt-2 mb-2">v2: Iterate on UI</p>
+                                    </div> -->
+                                    <div class="d-flex felx-row justify-content-between pt-2">
+                                        <p class="p-0 col-7 design-title mt-2 mb-2">a. Share with QR code</p>
+                                        <p class="p-0 col-5 design-title brinno-title mt-2 mb-2">b. Share with link</p>
+                                    </div>
+                                    <div class="d-flex felx-row justify-content-between align-items-flex-center mb-4">
+                                        <div class="p-0 col-5 mr-2"> 
+                                            <!-- <p class="design-title mt-2 mb-2">a. Share with QR code</p> -->
+                                            <img class="img-fluid" src="image/brinno/share drop v1 a.png" alt="upload file v2">
+                                            <div>
+                                                <div class="mb-2 d-flex flex-row">
+                                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                                    <p class="design-desc small-text">Enable to scan the QR code on-site.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="p-0 col-5"> 
+                                            <!-- <p class="design-title brinno-title mt-2 mb-2">b. Share with link</p> -->
+                                            <img class="img-fluid" src="image/brinno/share drop v1 b.png" alt="upload file v2">
+                                            <div>
+                                                <div class="mb-2 d-flex flex-row">
+                                                    <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                                    <p class="design-desc small-text">More convenient for desktop users.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="p-0 col-4"> 
+                                            <img class="img-fluid" src="image/brinno/share drop v2.png" alt="upload file v2">
+                                        </div> -->
+                                    </div>
+                                   
+                                </div>
+                                <!-- <div class="p-0 col-4"> 
+                                    <p class="design-title brinno-title mt-2 mb-4">v2: Iterate on UI</p>
+                                    <img class="img-fluid" src="image/brinno/share drop v2.png" alt="upload file v2">
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-2 pt-4">3. File List</h6>
+                        <div class="mb-4">  
+                            <p class="mb-2">Initially, I thought that <strong>displaying thumbnails</strong> would assist in <strong>identifying unusable images</strong>, but I soon realized that identical thumbnails made it <strong>difficult to distinguish the differences between each image</strong>. Therefore, I refined the design to emphasize more <strong>discriminative information</strong>, such as the file format.</p>
+                            <div class="mb-4 d-flex flex-row justify-content-between pt-2 rwd-design">
+                                <div class="mr-4">
+                                    <p class="design-title mt-2 mb-2">v1: Show image preview</p>
+                                    <div class="p-0 mb-2 pt-2 pb-2"> 
+                                        <img src="image/brinno/file list v1.png" alt="file list v1">
+                                    </div>
+                                    <div class="mb-4 d-flex flex-row">
+                                        <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                        <p class="mb-4 design-desc small-text">Confusing when disaplaying similar images at the same time.</p>
+                                    </div>
+                                </div>
+                                <div class="mb-4 d-flex justify-content-between">
+                                    <div>
+                                        <p class="design-title brinno-title mt-2 mb-2">v2: Show icons according to file formats</p>
+                                        <div class="p-0 mb-2 pt-2 pb-2"> 
+                                            <img src="image/brinno/file list v2.png" alt="file list v1">
+                                        </div>
+                                        <div class="mb-4 d-flex flex-row">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
+                                            <p class="design-desc small-text">Simplify the interface by using icons to distinguish file formats.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+                <h6>Permission Mamagement (Team)</h6>
+                <p class="mb-4">The process of <strong>deciding how to handle permissions for controlling cameras in construction projects</strong> is illustrated below</strong>.</p>
+                <div class="mb-5">
+                    <div class="mb-4 d-flex felx-row justify-content-between">
+                        <div>
+                            <p class="design-title mb-2">1. Explore two ways to manage project roles</p>
+                            <p class="mt-2 mb-2">
+                                I investigated two common methods for managing permissions in a project. For the <strong>feature-based method</strong>, users can assign permissions (edit/view) to project members based on <strong>features (projects, cameras, and files).</strong> And for the <strong>role-based method</strong>, role permissions are predefined, and the owner can <strong>assign roles (member/guest) to project members</strong>. To simplify design and enhance development efficiency, we opted for the role-based method.
+                            </p>
+                            <div class="d-flex felx-row justify-content-center mb-4 p-0 pt-2 rwd-design">
+                                <div class="p-0 col-4 pr-4 mr-4 justify-content-center"> 
+                                    <p class="design-title mt-2 mb-2">a. Feature-based</p>
+                                    <img class="img-fluid mb-2 pt-2 pb-2" src="image/brinno/permission v1 a.png" alt="upload file v2" style="max-width: 100%">
+                                    <div>
+                                        <div class="mb-1 d-flex flex-row">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                            <p class="design-desc small-text">Enable customization.</p>
+                                        </div>
+                                        <div class="mb-2 d-flex flex-row">
+                                            <img class="mr-2 icon" src="image/brinno/no.png" alt="no" style="width: 24px; height: 24px">
+                                            <p class="design-desc small-text">Need to manually set up permissions for each feature.</p>
+                                        </div>
+                                    </div>
+                                    <!-- <p class="mb-2 design-desc small-text">✅ Enable customization</p>
+                                    <p class="mb-2 design-desc small-text">❌ Need to manually set up permissions for each feature</p> -->
+                                </div>
+                                <div class="p-0 col-4 pl-4 ml-4 align-items-center"> 
+                                    <p class="design-title brinno-title mt-2 mb-2">b. Role-based</p>
+                                    <img class="img-fluid mb-2 pt-2 pb-2" src="image/brinno/permission v1 b.png" alt="upload file v2" style="max-width: 100%">
+                                    <div>
+                                        <div class="mb-1 d-flex flex-row">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="check" style="width: 24px; height: 24px">
+                                            <p class="design-desc small-text">More simple and convenient.</p>
+                                        </div>
+                                        <div class="mb-2 d-flex flex-row">
+                                            <img class="mr-2 icon" src="image/brinno/check.png" alt="no" style="width: 24px; height: 24px">
+                                            <p class="design-desc small-text">Save time on development.</p>
+                                        </div>
+                                    </div>
+                                    <!-- <p class="mb-2 design-desc small-text">✅ More simple and convenient</p>
+                                    <p class="mb-2 design-desc small-text">✅ Save time on development</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 d-flex felx-row justify-content-between">
+                        <div>
+                            <p class="design-title mt-2 mb-2">2. Define roles and role permissions</p>
+                            <p class="mt-2 mb-2">
+                                I proceeded to set roles and their permissions with the team. We observed that there are 3 main actors in most construction projects, including
+                                <strong>a project owner having access to all project settings</strong>, <strong>project members responsible for uploading files</strong> and <strong>clients that can only access to files</strong>. Therefore, the project roles were defined according to the observation. 
+                            </p>
+                            <div class="d-flex felx-row justify-content-between align-items-center mb-4 rwd-design">
+                                <div class="p-0 col-5 mr-4"> 
+                                    <img class="img-fluid" src="image/brinno/permission v2.png" alt="upload file v2">
+                                </div>
+                                <div class="p-0 col-6">
+                                    <div>
+                                        <p class="design-title brinno-title mt-2 mb-2">1. Admin</p>
+                                        <p class="mt-2 mb-4 small-text">Have all permissions  (include invite others to the project and delete projects) </p>
+                                    </div> 
+                                    <div>
+                                        <p class="design-title brinno-title mt-2 mb-2">2. Member</p>
+                                        <p class="mt-2 mb-4 small-text">Able to edit, view, and share projects</p>
+                                    </div> 
+                                    <div>
+                                        <p class="design-title brinno-title mt-2 mb-2">3. Guest</p>
+                                        <p class="mt-2 mb-4 small-text">Only view projects, cannot create, edit, delete or share with others</p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 d-flex felx-row justify-content-between">
+                        <div>
+                            <p class="design-title mt-2 mb-2 brinno-title">3. Iterate on UI</p>
+                            <div class="d-flex felx-row justify-content-between mb-4">
+                                <div class="p-0 mr-4"> 
+                                    <img class="img-fluid mb-4" src="image/brinno/permission v3.png" alt="upload file v2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h6 class="mb-4">Settings</h6>
+                <div>
+                    <h6>1. Profile and account settings</h6>
+                    <p class="mb-4">I initially separated the two settings due to security concerns. However, during the UI design phase, I noticed that integrating the two areas was <strong>more effective in maximizing spacing</strong> without compromising on security.</p>
+                    <div class="mb-5">
+                        <div class="mb-4 d-flex felx-row justify-content-between align-items-center">
+                            <div class="p-0 col-5 mr-4">
+                                <p class="design-title mt-2 mb-2">v1: Seperate the two settings</p>
+                            </div>
+                            <div class="p-0 col-6">
+                                <p class="design-title brinno-title mt-2 mb-2">v2: Combine the two settings</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="image/brinno/profile.png" alt="upload file v2">
+                    </div>
+                </div>
+                <div>
+                    <h6>2. Notification settings</h6>
+                    <p class="mb-4">Following the team's suggestions, I improved the first version of design by <strong>reducing the distance between the toggle and the label</strong> to make it easier for users to <strong>identify the corresponding toggle</strong>. Moreover, the notifications are <strong>grouped according to features</strong>, saving users time in <strong>finding the specific ones they are searching for</strong>.</p>
+                    <div class="mb-5">
+                        <div class="mb-4 d-flex felx-row justify-content-between align-items-center rwd-design">
+                            <div class="p-0 col-6">
+                                <p class="design-title mt-2 mb-2">v1: List all notifications</p>
+                                <img class="img-fluid" src="image/brinno/notification 1.png" alt="upload file v2">
+                            </div>
+                            <div class="p-0 col-6">
+                                <p class="design-title brinno-title mt-2 mb-2">v2: Group by features</p>
+                                <img class="img-fluid" src="image/brinno/notification 2.png" alt="upload file v2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5 bg-light">
+        <div class="container">
+            <h6 class="brinno-title">Solution</h6>
+            <h4 class="mb-4">4 Key Features for Camera Management Tool</h4>
+            <div class="mt-4">
+                <div class="p-0">
+                    <h6>1. Camera scheduling and preview</h6>
+                    <p>Remote camera scheduling and monitoring, saving users' time on on-site setup and enabling immediate anomaly detection.
+                    </p>
+                </div>
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/preview ui.png" alt="upload file v2">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/schedule ui.png" alt="upload file v2">
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="p-0">
+                    <h6>2. File uploading and sharing</h6>
+                    <p>Uploading files in different formats and sharing view-only files enhance efficient communication with clients and prevent camera settings from being accidentally altered.
+                    </p>
+                </div>
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/upload ui.png" alt="upload file v2">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/share file.png" alt="upload file v2">
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="p-0">
+                    <h6>3. Manage by projects or devices</h6>
+                    <p>Managing cameras by project or device enhances the previous approach focusing on single-device management, providing a more convenient way to set up and monitor multiple devices.
+                    </p>
+                </div> 
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/dashboard ui.png" alt="upload file v2">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/Device list ui.png" alt="upload file v2">
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="p-0">
+                    <h6>4. Permission management</h6>
+                    <p>Creating three permission levels for project roles improves both internal management and external communication.
+                    </p>
+                </div>
+                <div class="p-0 d-flex flex-row justify-content-between align-items-center rwd-design">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/team ui.png" alt="upload file v2">
+                    <img class="p-0 col-6 img-fluid" src="image/brinno/add member ui.png" alt="upload file v2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Prototype</h6>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="80%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FSjnadktXD0XeF6OKxq1kDM%2FPortfolio%3Ftype%3Ddesign%26node-id%3D310-39721%26t%3DMai18U0wdmi5P5lx-1%26scaling%3Dmin-zoom%26page-id%3D1%253A3%26starting-point-node-id%3D310%253A29299%26mode%3Ddesign" allowfullscreen></iframe>
+        </div>
+    </section> -->
+
+    <section class=" py-5">
+        <div class="container">
+            <h6 class="brinno-title">Reflection</h6>
+            <!-- <div class="mt-2">
+                <h6>What I've learned</h6>
+                <p>This is my first time engaging in a real-world design project. I realized that there are many limitations. For example, I didn't have much time and resources to conduct user research in the beginning of the project, and we spent lots of time to confirm technical feasibility. Therefore, I learned to start with establishing hypotheses based on existing information, discuss with the team, and make adjustments accordingly. While it might seem uncertain at first, it helps me to gather feedback and reach consensus with the team more efficiently. 
+                    l also learned it's important to step in users' shoes and design simple and intuitive interfaces, especially when most users are unfamiliar with technology.
+                </p>
+            </div>
+            <div class="mt-2">
+                <h6>What I'd have done better</h6>
+                <p>If I knew we couldn't interview many users, I'd spend more time on desk research at the beginning of the project. Understanding the industry more comprehensively would help me to empathize with the users better later on. Moreover, I'd want to test the design with real users, and refine the design based on their feedback. 
+                </p>
+            </div> -->
+            <div class="mt-4">
+                <h6>1. Deal with limitations and uncertainties in real-world scenarios</h6>
+                <p>
+                    The limitations and uncertainties in real-life scenarios were the greatest challenges in this project. For example, in the early stages of the project, I had a limited understanding of the construction field, and comprehensive user research was not practicable due to time and resource restrictions. Furthermore, I was uncertain whether my design proposals were practical, as the team spent a significant amount of time verifying with various stakeholders. Throughout these challenges, I learned to make assumptions based on the information at hand and then adjust them based on the team's feedback. Though these initial assumptions were ambiguous and may be radically changed, they allowed me to efficiently communicate and reach a consensus with the team.
+                </p>
+            </div>
+            <div class="mt-4">
+                <h6>2. Design intuitively for users less familiar with technology</h6>
+                <p>As most of our primary users were constructors who were less familiar with technical products, I realized the significance of designing interfaces that were easy to use. Therefore, I stepped into their shoes and created straightforward interfaces that could help them quickly understand how to navigate the website.
+                </p>
+            </div>
+            <div class="mt-4">
+                <h6>3. Increase domain knowledge to better understand the users</h6>
+                <p>If I knew we wouldn't be able to interview many users, I would spent more time on desk research at the beginning of the project. As the project progresses, a thorough understanding of the industry will be useful in empathizing with the users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Add more sections for additional topics or steps as needed -->
+
+    <!-- Footer Section -->
+    <!-- <section>
+        <div div class="container p-0">
+            <hr>
+        </div>
+    </section> -->
+    
+    <footer class="me-title">
+        <div class="container p-0">
+            <div class="footer-container">
+                <div class="footer-button">
+                    <a class="nav-link linkedin" href="https://www.linkedin.com/in/chien-chi-hsu-b1b417200/" target="_blank"><h6>Linkedin</h6></a>
+                    <a class="nav-link" href="mailto:r11725027@ntu.edu.tw"><h6>Email</h6></a>
+                </div>
+                <div>
+                    <p class="small-text">Designed and coded by Chien Chi &copy;2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTopBtn" onclick="scrollToTop()">
+        <i style="font-size:36px; line-height: 1.3" class="material-icons">keyboard_arrow_up</i>
+    </button>
+
+    <script>
+        // Get the button
+        var backToTopButton = document.getElementById("backToTopBtn");
+    
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > window.innerHeight || document.documentElement.scrollTop > window.innerHeight) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+    
+        // Scroll to the top of the document with smooth animation when the button is clicked
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include your custom JavaScript and any other necessary scripts here -->
+</body>
+</html>

@@ -8,6 +8,7 @@
     <link rel="icon" href="./favicon.ico" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <style>
         @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
     </style>
@@ -26,14 +27,14 @@
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container" style="padding: 0px">
-        <a class="navbar-brand" href="index.html"><h4>Chien Chi Hsu</h4></a>
+        <a class="navbar-brand" href="index.html"><h4>Chelsea Hsu</h4></a>
         <button id="navbar-toggler"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html#projects"><h6>Projects</h6></a>
+                    <a class="nav-link" href="./index.html#projects"><p>Work</p></a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <button class="nav-link dropbtn"><h6>Projects</h6></button>
@@ -44,10 +45,10 @@
                     </div>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="./About.html"><h6>About</h6></a>
+                    <a class="nav-link" href="./About.html"><p>About</p></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1jHDBnRxCWdXWxBVfPtuhqx2BAkZ4TLV8/view?usp=sharing" target="_blank"><h6>Resume</h6></a>
+                    <a class="nav-link" href="https://drive.google.com/file/d/1jHDBnRxCWdXWxBVfPtuhqx2BAkZ4TLV8/view?usp=sharing" target="_blank"><p>Resume</p></a>
                 </li>
             </ul>
         </div>
@@ -55,14 +56,14 @@
 </nav>
 
 <!-- Home Page -->
-<section id="home" class="text-center py-5">
-    <div id="language-switcher">
+<section id="home" class="py-5 p-0">
+    <!-- <div id="language-switcher">
         <a class="nav-link" href="./index.html"><h4>EN</h4></a>
         <a class="nav-link" href="./index_zh.html"><h4>繁中</h4></a>
-    </div>
-    <div class="cover container">
-        <div class="d-flex align-items-center justify-content-between flex-row p-0 hero" style="margin: 0px 0px">
-            <div class="d-flex align-items-start  justify-content-center flex-column p-0 col-7">
+    </div> -->
+    <div class="container">
+        <div class="d-flex text-align-start flex-row p-0" style="margin: 0px 0px">
+            <!-- <div class="d-flex align-items-start  justify-content-center flex-column p-0 col-7">
                 <h1 class="big-title mb-3">Hello! I am Chien-Chi</h1>
                 <p style="text-align: start; color: #818181; font-weight: 400;" class="hero-text">I am a passionate UX designer with a solid background in web development.<br> I integrate creativity and technical expertise to craft designs that positively change people's lives.</p>
             </div>
@@ -71,38 +72,89 @@
         <div class="d-flex flex-column" style="padding-top: 160px">
             <a href="javascript:void(0);" id="seeMoreBtn" onclick="scrollToContent()" style="outline: none"><h6 style="outline: none">Selected Projects</h6></a>
             <h1>&#x1F817;</h1>
-        </div>
+        </div> -->
         <!-- <img src="image/home/cover.png" alt="personal"> -->
+        <h4>Hi! I’m <span class="me-title">Chelsea Hsu</span>. <br>
+            A UX designer integrates <span class="me-title">creativity</span> and <span class="me-title">technology</span> <br>
+            to design experiences that improve people's lives.</h4>
     </div>
 </section>
+
+
+
+
 
 <!-- Projects Page -->
 <section id="projects" class="py-5 mr-sm-4 ml-sm-4">
     <div class="container p-0">
-        <!-- <h4>Projects</h4> -->
-        <div class="row m-0">
-            <!-- Project 1 -->
-
-
-            <div class="card project d-flex col-md-12 border-0">
-                <div class="row justify-content-between">
-                    <div class="col-md-5 d-flex align-items-center">
-                        <div class="card-body"  style="padding: 0px">
-                            <div class="card-info">
-                                <h6 class="card-tag">NTU & Brinno Cooperation Project</h4>
-                                <h3 class="card-title">Camera Management Tool</h3>
-                                <p class="card-text">Enable constructors to monitor time-lapse camera screen and status in real-time</p>
-                            </div>
-                            <a href="./CameraManagementTool.html" class="card-button mb-4">
-                                view project
-                            </a>
-                        </div>
+        <div class="flex-row d-flex justify-content-between flex-wrap">
+            <div class="col-6 p-0 pr-4" style="margin-bottom: 48px">
+                <div style="padding-bottom: 32px">
+                    <a href="./CameraManagementTool.html"><img class="" src="image/brinno/new/index.png"></a>
+                </div>
+                <div>
+                    <div style="margin-bottom: 16px">
+                        <h3 style="margin-bottom: 4px">Camera Management Tool</h3>
+                        <p class="small-text light-text">UX Design · Web Design</h6>
                     </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid card-img" src="image/home/birnno cover (1).png" alt="upload file v2">
-                    </div>
+                    <p>Enable constructors to monitor time-lapse camera screen and status in real-time</p>
                 </div>
             </div>
+
+            <div class="col-6 p-0 pl-4" style="margin-bottom: 48px">
+                <div style="padding-bottom: 32px">
+                    <a href="./PDOGs.html"><img class="" src="image/pdog/new/index.png"></a>
+                </div>
+                <div>
+                    <div style="margin-bottom: 16px">
+                        <h3 style="margin-bottom: 4px">PDOGs Redesign</h3>
+                        <p class="small-text light-text">UX Design · RWD Design</h6>
+                    </div>
+                    <p>Improve the code submission experience for students and teaching assistants
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 p-0 pr-4">
+                <div style="padding-bottom: 32px">
+                    <a href="./Learnly.html"><img class="" src="image/Learnly/new/index.png"></a>
+                </div>
+                <div>
+                    <div style="margin-bottom: 16px">
+                        <h3 style="margin-bottom: 4px">Learnly</h3>
+                        <p class="small-text light-text"> UX Design · APP Design</h6>
+                    </div>
+                    <p>Encourage university students to solve academic problems through learning communities</p>
+                </div>
+            </div>
+
+            <div class="col-6 p-0 pl-4">
+                <div style="padding-bottom: 32px">
+                    <a href="./driver.html"><img class="" src="image/driver/new/index.png"></a>
+                </div>
+                <div>
+                    <div style="margin-bottom: 16px">
+                        <h3 style="margin-bottom: 4px">The Impact of In-car Navigation Systems on Drivers' Moods</h3>
+                        <p class="small-text light-text"> User Research</h6>
+                    </div>
+                    <p>Investigate potential negative effects of in-car navigation systems on drivers' moods</p>
+                </div>
+            </div>
+            
+
+            <!-- <div class="col-6 p-0 pl-4">
+                <div class="p-0 pb-4">
+                    <img class="img-fluid card-img" src="image/home/birnno cover (1).png" alt="upload file v2">
+                </div>
+                <div>
+                    <h3>Learnly</h3>
+                    <p class="small-text">NTU & Brinno Cooperation Project</h6>
+                    <p>Enable constructors to monitor time-lapse camera screen and status in real-time</p>
+                </div>
+            </div> -->
+        </div>
+        <!-- <h4>Projects</h4> -->
+            <!-- </div>
             <div class="card project d-flex col-md-12 border-0">
                 <div class="row justify-content-between">
                     <div class="col-md-5 d-flex align-items-center">
@@ -199,7 +251,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <!-- Simple Left-Aligned Footer -->
 <!-- <section>

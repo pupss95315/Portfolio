@@ -7,13 +7,19 @@ body, h1, h2, h3, p {
 /* Set a background color for the body */
 body {
     background-color: #ffff;
-    font-family: "Lato", sans-serif;
+    font-family: "Karla", sans-serif;
     scroll-behavior: smooth; 
 }
 .light-bg{
     background-color: #EEEEFF !important;
     /* background-color: white; */
 
+}
+.light-text{
+    color: #A4A4A4;
+}
+.container{
+    width: 70%
 }
 h1{
     color: #3F3F3F;
@@ -31,28 +37,28 @@ h2{
 }
 h3{
     color: #3F3F3F;
-    font-size: 28px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px; /* 150% */
+    line-height: 39px; /* 150% */
 }
 h4{
     color: #3F3F3F;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 36px; /* 150% */
+    font-weight: 600;
+    line-height: 30px; /* 150% */
 }
 h5{
     color: #3F3F3F;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 27.2px; /* 136% */
 }
 h6{
     color: #3F3F3F;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 27.2px; /* 151.111% */
@@ -62,7 +68,7 @@ p{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px; /* 150% */
+    line-height: 24px; /* 150% */
 }
 
 a:link {
@@ -135,7 +141,7 @@ hr{
 
 .navbar-brand {
     color: #2E4C6D;
-    font-family: 'Glacial Indifference', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -146,15 +152,15 @@ hr{
 }
 .navbar-nav .nav-link {
     color: #fff;
-    font-family: 'Glacial Indifference', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 .nav-item{
     padding: 16px;
 }
-a h6:hover{
+a p:hover{
     color:#396EB0;
 }
-button h6:hover{
+button p:hover{
     color:#396EB0;
 }
 /* Style the cover section */
@@ -163,7 +169,6 @@ button h6:hover{
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 64px 0;
 }
 
 .primary-button{

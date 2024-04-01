@@ -498,7 +498,6 @@ button:focus{
         display: flex;
         align-items:  start;
         flex-direction: column;
-        margin: 16px;
     }
     .footer-container div p{
         text-align: start;
